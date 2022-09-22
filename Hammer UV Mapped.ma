@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: Hammer 2.ma
-//Last modified: Wed, Sep 21, 2022 06:22:48 PM
+//Name: Hammer UV Mapped.ma
+//Last modified: Wed, Sep 21, 2022 06:23:08 PM
 //Codeset: UTF-8
 requires maya "2023";
 requires "mtoa" "5.1.2";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "CAF677EA-F04D-0D06-BB0C-338B10CBDCCD";
+fileInfo "UUID" "E81CA78C-9D43-51CC-DE60-0B83A1BA5FA6";
 createNode transform -s -n "persp";
 	rename -uid "0411B180-9A43-728A-82AC-2884708691E5";
 	setAttr ".v" no;
@@ -1637,4 +1637,4 @@ connectAttr "polyMapSewMove5.out" "polyTweakUV16.ip";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "HammerMatte.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of Hammer 2.ma
+// End of Hammer UV Mapped.ma
